@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  -webkit-user-drag: none;
+  color: inherit;
+  border: none;
+  background: none;
+  text-align: left;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+img {
+  -webkit-user-drag: none;
+}

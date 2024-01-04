@@ -1,0 +1,67 @@
+#main {
+  padding: 20px;
+
+  .header {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    a {
+      padding: 5px 10px;
+      background-color: #242428;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .cinema_list {
+    display: flex;
+    gap: 8px;
+
+    button {
+      padding: 4px 5px;
+      background-color: #242428;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .seats {
+    &_table {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      padding: 10px;
+    }
+
+    &_row {
+      display: flex;
+      gap: 6px;
+    }
+
+    &_col {
+      width: 24px;
+      height: 24px;
+      background-color: #e6e6e6;
+    }
+  }
+
+  .info {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
