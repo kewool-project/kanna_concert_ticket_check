@@ -39,6 +39,12 @@ const cinemaDetail = ref() as Ref<CinemaDetail>;
 const currentCinemaName = ref("");
 
 const selectCinema = async (cinemaName: string, id: number) => {
+  // set seat color
+  const seats = document.getElementsByClassName("seats_col");
+  for (let i = 0; i < seats.length; i++) {
+    const seats = document.getElementsByClassName("seats_col") as HTMLCollectionOf<HTMLElement>;
+    seats[i].style.backgroundColor = "#e6e6e6";
+  }
   currentCinemaName.value = cinemaName;
   cinemaDetail.value = await getCinemaDetail(id) as CinemaDetail;
   ticketList.value = await getTicketList(id) as TicketList[];
