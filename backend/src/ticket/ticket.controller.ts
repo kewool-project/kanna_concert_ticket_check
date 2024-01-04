@@ -20,7 +20,6 @@ export class TicketController {
     @Body() body: string[],
     @Req() req: Request,
   ): Promise<SuccessResponse> {
-    console.log(body);
     return await this.ticketService.createUser(body, req.ip);
   }
 }
