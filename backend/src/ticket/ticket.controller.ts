@@ -22,7 +22,7 @@ export class TicketController {
   ): Promise<SuccessResponse> {
     return await this.ticketService.createUser(
       body,
-      req.headers["cf-connecting-ip"][0],
+      req.headers["cf-connecting-ip"] as string,
     );
   }
 }
