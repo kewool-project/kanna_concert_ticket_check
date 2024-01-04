@@ -3,7 +3,7 @@
     <div class="header">
       <h1>예매 좌석 현황</h1>
       <a href="guide">좌석 등록 방법</a>
-      <a href="">깃허브</a>
+      <a href="https://github.com/kewool-project/kanna_concert_ticket_check">깃허브</a>
     </div>
     <div class="cinema_list">
       <button
