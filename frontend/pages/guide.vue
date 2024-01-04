@@ -1,5 +1,6 @@
 <template>
   <div id="guide">
+    <p>주의사항: 신분상승 등의 이유로 예매를 취소할 예정이라면 취소를 하고 등록해주세요.</p>
     <textarea v-model="text" readonly></textarea>
     <p>1. 위 텍스트 전체를 복사한다.</p>
     <img src="@/assets/images/guide1.png" />
